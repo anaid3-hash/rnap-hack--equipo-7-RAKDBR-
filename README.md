@@ -12,4 +12,4 @@ This project is developed for the Deep Learning course. It implements and compar
 - `data/`: Sample datasets and data sources.
 
 ## Team
-- Team 7 - RAKDBR
+- Team 7 - RAKDBR 
