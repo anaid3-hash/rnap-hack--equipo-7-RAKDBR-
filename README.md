@@ -20,5 +20,11 @@ We implemented and compared two approaches:
 - `data/`: Sample datasets and data references (`train.tsv`, `test.tsv`).
 - `requirements.txt`: Python dependencies required to run the project.
 
+## Phase 2 (CP4) Results & Evaluation
+* **Model Used:** TF-IDF + Logistic Regression (Baseline integrated into Streamlit app)
+* **Test Accuracy:** 0.5991
+* **F1-Score:** 0.5039
+* **Error Analysis:** Documented 5 specific failure cases (Language barriers, colloquialisms, text length, formal/academic styles, and spelling errors) inside the official technical notebook.
+
 ## Team
 - **Team 7 - RAKDBR**
