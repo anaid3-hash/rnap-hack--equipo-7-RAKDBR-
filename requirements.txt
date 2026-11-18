@@ -1,1 +1,5 @@
-transformers, datasets, scikit-learn, pandas, torch
+streamlit
+pandas
+scikit-learn
+matplotlib
+joblib
