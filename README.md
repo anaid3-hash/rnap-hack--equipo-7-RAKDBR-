@@ -30,5 +30,16 @@ We implemented and compared two approaches:
 You can test and interact with the deployed application directly here:
 [Open Streamlit App](https://f6yqhyx2sw8twfsvrlbkes.streamlit.app/)
 
+## 6. Conclusions and Results Analysis
+
+In this project, a Natural Language Processing (NLP) classifier was developed and implemented using a `TfidfVectorizer` pipeline and a `LogisticRegression` model to distinguish between human-authored texts and AI-generated texts (`'human'` vs. `'generated'`).
+
+Based on the evaluation performed on the test dataset (`test.tsv`), the following key conclusions were reached:
+
+* **Overall Performance:** The confusion matrix demonstrates a high accuracy rate in the human-authored class, successfully classifying over 10,700 samples. This indicates that the model robustly recognizes the linguistic patterns characteristic of human writing.
+* **Area Under the ROC Curve (AUC):** The generated ROC curve reflects the model's effectiveness in discriminating between both classes across different probability thresholds. The visual behavior confirms that the model significantly outperforms the random baseline, showing competitive and stable performance.
+* **Challenges and Limitations:** A margin of false positives and false negatives was observed in AI-generated texts. This occurs because modern language models closely mimic the structure, perplexity, and burstiness of human writing, posing a natural challenge for linear TF-IDF classifiers.
+* **Practical Implications:** Integrating this model into the web interface deployed on Streamlit enables fast and accessible detection of synthetic content, fulfilling all technical and practical requirements of the project.
+
 ## Team
 - **Team 7 - RAKDBR**
