@@ -4,6 +4,11 @@
 - Next step: Build the fine-tuned Transformer model and start designing the user interface.
 - Who did what: All team members collaborated on code implementation, evaluation, and documentation.
 
+## Checkpoint 3 (CP3) - Streamlit Interface & Model Integration
+- **Status:** Completed
+- **Summary:** Developed the interactive web interface using Streamlit (`app.py`) and integrated the trained baseline classification model (TF-IDF + Logistic Regression) to allow real-time text evaluation (Human vs. Machine).
+- **Key Deliverables:** Functional user interface, model serialization/loading pipeline, and dependency management (`requirements.txt`).
+
 ## CP4 - 17-11-2026
 - Successfully configured and tested the Streamlit user interface (app/app.py).
 - Resolved environment dependencies and installed required packages (joblib, scikit-learn, streamlit) inside the virtual environment (venv).
