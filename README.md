@@ -26,5 +26,9 @@ We implemented and compared two approaches:
 * **F1-Score:** 0.5039
 * **Error Analysis:** Documented 5 specific failure cases (Language barriers, colloquialisms, text length, formal/academic styles, and spelling errors) inside the official technical notebook.
 
+## Live Demo
+You can test and interact with the deployed application directly here:
+[Open Streamlit App](https://f6yqhyx2sw8twfsvrlbkes.streamlit.app/)
+
 ## Team
 - **Team 7 - RAKDBR**
